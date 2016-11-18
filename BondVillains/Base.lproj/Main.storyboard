@@ -11,7 +11,7 @@
         <scene sceneID="eQj-cP-ATZ">
             <objects>
                 <navigationController title="Collection" id="2b9-mE-Stg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Collection" id="Tbs-IB-hyv"/>
+                    <tabBarItem key="tabBarItem" title="Collection" image="colImage" selectedImage="colImage" id="Tbs-IB-hyv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ldd-Sq-7b6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -54,7 +54,7 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lat-i0-4Ze">
-                                            <rect key="frame" x="7.5" y="6" width="85" height="17"/>
+                                            <rect key="frame" x="8" y="6" width="85" height="17"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="85" id="DXZ-Cs-vMe"/>
                                             </constraints>
@@ -113,7 +113,7 @@
         <scene sceneID="j5K-hX-kFm">
             <objects>
                 <navigationController title="Table" id="o3f-Sg-gX9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Table" id="fG8-h0-hPv"/>
+                    <tabBarItem key="tabBarItem" title="Table" image="tableImage" selectedImage="tableImage" id="fG8-h0-hPv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h6b-Jx-447">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -200,14 +200,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDo-XX-WHk">
-                                <rect key="frame" x="127.5" y="283.5" width="120" height="100"/>
+                                <rect key="frame" x="128" y="284" width="120" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="FMn-Rb-mu2"/>
                                     <constraint firstAttribute="width" constant="120" id="w7B-gz-6qd"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtr-bJ-yVV">
-                                <rect key="frame" x="16" y="404.5" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="405" width="343" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -235,6 +235,10 @@
             <point key="canvasLocation" x="445" y="-581"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="colImage" width="30" height="30"/>
+        <image name="tableImage" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
